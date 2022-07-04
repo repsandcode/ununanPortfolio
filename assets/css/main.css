@@ -2355,6 +2355,7 @@ input, select, textarea {
 			}
 
 			.icon.major:before {
+				cursor: pointer;
 				font-size: 4em;
 				line-height: 1em;
 			}
