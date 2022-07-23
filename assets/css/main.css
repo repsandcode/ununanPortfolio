@@ -2862,7 +2862,7 @@ input, select, textarea {
 
 			.main.style2.special p{
 				text-align: center;
-				min-height: 78px;
+				/* min-height: 78px; */
 			}
 
 			.main.style2 header.major:after {
