@@ -2838,10 +2838,7 @@ input, select, textarea {
 
 		.main.style2 {
 			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			color: rgba(255, 255, 255, .81);
 		}
 
 			.main.style2 a {
