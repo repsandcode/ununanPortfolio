@@ -2837,7 +2837,7 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #333;
+			background-color: #2B3A55;
 			color: rgba(255, 255, 255, .81);
 		}
 
@@ -2927,9 +2927,9 @@ input, select, textarea {
 			}
 
 	#headshot{
-		border-radius: 50%;
 		margin: 0 auto;
-		width: 90%;
+		width: 100%;
+		border-radius: 60px;
 	}
 /* Header */
 
@@ -2937,10 +2937,10 @@ input, select, textarea {
 		padding: 9em 0 9em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-attachment: fixed;
+		background-image: url("/images/profile.jpg");
+		background-position: top right;
+		background-size: auto;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3133,10 +3133,10 @@ input, select, textarea {
 		padding: 6em 0 6em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-attachment: fixed;
+		background-image: url("/images/profile.jpg");
+		background-position: top left;
+		background-size: auto;
 		text-align: center;
 	}
 
@@ -3338,11 +3338,11 @@ input, select, textarea {
 		/* Main */
 
 			.main {
-				padding: 5em 3em 3em 3em ;
+				padding: 5em 3em 3em 5em ;
 			}
 
 			#headshot{
-				width: 40%;
+				width: 100%;
 			}
 
 		/* Header */
